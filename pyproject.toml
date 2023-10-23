@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "video-to-embedding"
+version = "0.1.0"
+description = ""
+authors = ["MiyamotoRin <muhe.iroiro.thedoctor@digitalnature.slis.tsukuba.ac.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "<3.11, >3.10"
+opencv-python = "^4.8.1.78"
+tensorflow = "^2.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
